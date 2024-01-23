@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+}
+nav li {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+}
+nav a:link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+nav a:hover,
+nav li.active a {
+  color: black;
+}
+/*NAV*/
+
+/*BURGER-MENU*/
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.bar {
+  background-color: rgb(44, 44, 44);
+  margin: 3px 0;
+  transition: 0.4s;
+  width: 30px;
+  height: 2px;
+}
+.close-icon {
+  display: none;
+  cursor: pointer;
+}
+.close-icon .bar {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(44, 44, 44);
+  margin: 2px 0;
+  transition: 0.4s;
+}
+.burger-menu.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-3px, -2px);
+}
+.burger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+.burger-menu.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-14px, -7px);
+}
+/*BURGER-MENU*/
+
+@media (max-width: 800px) {
+  .burger-menu {
+    display: flex;
+    padding-top: 40px;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav.active ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .nav.active ul li {
+    padding: 10px;
+  }
+}
+footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
