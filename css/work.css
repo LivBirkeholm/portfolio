@@ -1,0 +1,21 @@
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  gap: 50px;
+}
+.exam,
+.personal {
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  padding: 25px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: rgb(65, 63, 63);
+  text-align: center;
+  padding-top: 30px;
+}
