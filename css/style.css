@@ -52,7 +52,7 @@ nav li.active a {
 }
 .logo a {
   font-family: "Zen Tokyo Zoo", system-ui;
-  font-size: 50px;
+  font-size: 60px;
 }
 /*NAV*/
 
@@ -116,7 +116,7 @@ nav li.active a {
 }
 footer {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 180px;
   padding-bottom: 50px;
   font-family: "Montserrat", sans-serif;
   color: rgb(87, 85, 85);
