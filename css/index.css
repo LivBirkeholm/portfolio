@@ -1,9 +1,21 @@
+@media (min-width: 800px) {
+  .forside_tekst {
+    font-size: 35px;
+    line-height: 65px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 800px) {
+  .forside_tekst {
+    font-size: 30px;
+    line-height: 65px;
+    padding-top: 30px;
+  }
+}
+
 .forside_tekst {
   font-family: "Montserrat", sans-serif;
   color: rgb(65, 63, 63);
-  font-size: 35px;
-  line-height: 65px;
-  padding-top: 90px;
 }
 .knap {
   background-color: rgb(239, 236, 235);
@@ -49,7 +61,7 @@
 }
 .kea_en:hover {
   border: none;
-  background-color: rgb(255, 249, 89);
+  background-color: rgb(255, 211, 89);
   border-radius: 15px;
   padding: 10px;
   cursor: pointer;
