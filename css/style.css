@@ -121,10 +121,24 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: rgb(87, 85, 85);
 }
-.linkedin {
+.linkedin,
+.resume {
   color: rgb(87, 85, 85);
   text-decoration: none;
 }
-.linkedin:hover {
+.linkedin:hover,
+.resume:hover {
   color: black;
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

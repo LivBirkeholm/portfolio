@@ -15,6 +15,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (1)/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (1)/favicon-16x16.png">
     <link rel="manifest" href="favicon_io (1)/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-0J/PrT7N1laAL8A4P6PgqK4i6IvVtINu7U14v8E/39Vw1xL9SZ9cG37WI0yXfpePUpj/o5S9mUuC7+cuRvmfv9g=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
     <title>About</title>
@@ -34,7 +37,7 @@
             <ul class="burger-menu-content">
                 <li><a href="index.html">HOME</a></li>
                 <li class="active"><a href="about.html">ABOUT</a></li>
-                <li><a href="mywork.html">MY WORK</a></li>
+                <li><a href="work.html">WORK</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
             <div class="close-icon">
@@ -43,14 +46,40 @@
             </div>
         </nav>
     </header>
-    <main>
 
+
+    <main>
+        <button id="scrollToTopBtn" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <div class="grid_1-1">
+            <div>
+                <img class="portrait" src="img/portrait.webp" alt="Portrait">
+            </div>
+            <div>
+                <h1>Who am i?</h1>
+                <p>Hi, my name is Liv Birkeholm, a passionate multimedia design student at KEA, living in Østerbro in
+                    Copenhagen. My journey in design started after my high school education in 2021, when I decided to
+                    take two sabbaticals to explore the world outside the classroom.</p>
+                <p>My thirst for knowledge and my ability to take responsibility have led me into the world of
+                    multimedia
+                    design, where I now dive into creative challenges and learn new skills that I am passionate about
+                    putting into practice. I combine my creativity with organizational skill and a dedication to deliver
+                    excellent results. I look forward to continuing my journey in the world of design and developing
+                    further as a multimedia designer at KEA.</p>
+            </div>
+        </div>
     </main>
+
+
     <footer>
         <p>liv.birkeholm@gmail.com // <a class="linkedin" href="https://www.linkedin.com/in/liv-birkeholm/">LinkedIn</a>
-        </p>
+            // <a class="resume"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:4cb48c00-ef58-4848-a1d1-1eff33ad3c14">Resume</a></p>
     </footer>
     <script src="javascript/burgermenu.js"></script>
+    <script src="https://kit.fontawesome.com/5e30b57411.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

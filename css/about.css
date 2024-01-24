@@ -1,0 +1,21 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: rgb(65, 63, 63);
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(87, 85, 85);
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 30px;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 70px;
+}
+.portrait {
+  width: 60%;
+  margin-left: 100px;
+}
