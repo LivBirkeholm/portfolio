@@ -117,7 +117,6 @@ nav li.active a {
 footer {
   display: flex;
   justify-content: space-between;
-  text-align: center;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 180px;
@@ -125,16 +124,13 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: rgb(87, 85, 85);
 }
-.linkedin,
-.resume,
-.mailto {
+footer a {
   color: rgb(87, 85, 85);
   text-decoration: none;
 }
-.linkedin:hover,
-.resume:hover,
-.mailto:hover {
+footer a:hover {
   color: black;
+  transform: scale(1.05);
 }
 
 #scrollToTopBtn {
