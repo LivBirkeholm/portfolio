@@ -115,27 +115,33 @@ nav li.active a {
   }
 }
 footer {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 180px;
   padding-bottom: 50px;
   font-family: "Montserrat", sans-serif;
   color: rgb(87, 85, 85);
 }
 .linkedin,
-.resume {
+.resume,
+.mailto {
   color: rgb(87, 85, 85);
   text-decoration: none;
 }
 .linkedin:hover,
-.resume:hover {
+.resume:hover,
+.mailto:hover {
   color: black;
 }
 
 #scrollToTopBtn {
   display: none;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 50px;
+  right: 50px;
   padding: 10px;
   color: black;
   border: none;
