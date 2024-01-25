@@ -72,15 +72,19 @@ p {
 }
 .box1 {
   background-color: rgb(145, 186, 252);
+  cursor: default;
 }
 .box2 {
   background-color: rgb(248, 124, 255);
+  cursor: default;
 }
 .box3 {
   background-color: rgb(133, 225, 136);
+  cursor: default;
 }
 .box4 {
   background-color: rgb(255, 207, 159);
+  cursor: default;
 }
 .general_skills p {
   padding-bottom: 20px;
