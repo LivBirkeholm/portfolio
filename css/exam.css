@@ -27,10 +27,13 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
   border: 1px solid white;
   background-color: white;
   border-radius: 15px;
+}
+.project {
+  padding-right: 60px;
 }
 .exam_img {
   border-radius: 15px;
