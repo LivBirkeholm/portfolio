@@ -7,7 +7,6 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   color: rgb(105, 102, 102);
-  padding-bottom: 40px;
 }
 p {
   font-family: "Montserrat", sans-serif;
@@ -32,12 +31,6 @@ p {
   background-color: white;
   border-radius: 15px;
 }
-.project {
-  padding-right: 60px;
-}
-.atelier_img {
-  border-radius: 15px;
-}
 .knap {
   background-color: rgb(239, 236, 235);
   border: none;
@@ -56,4 +49,21 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+.project {
+  padding-right: 60px;
+}
+.atelier_img {
+  border-radius: 15px;
+}
+.center {
+  text-align: center;
+  padding-top: 100px;
+}
+.titel {
+  padding-bottom: 40px;
+}
+.undertitel {
+  padding-bottom: 20px;
+  padding-top: 60px;
 }

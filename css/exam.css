@@ -48,10 +48,12 @@ p {
   width: 70%;
   padding-top: 30px;
 }
-.design {
+.design,
+.result {
   padding-top: 100px;
   text-align: center;
 }
+
 .moodboard,
 .styletile {
   padding-top: 30px;
