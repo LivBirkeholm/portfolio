@@ -25,16 +25,29 @@ p {
 .knap:hover {
   color: black;
 }
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 70px;
-  border: 1px solid white;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 5px 5px rgba(212, 212, 212, 0.401);
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 70px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(212, 212, 212, 0.401);
+  }
 }
+@media (max-width: 800px) {
+  .grid_1-1 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(212, 212, 212, 0.401);
+    padding: 40px;
+    margin-top: 70px;
+  }
+}
+
 .grid_1-1:hover {
   box-shadow: 5px 5px rgba(171, 171, 171, 0.401);
   transform: scale(1.01);
