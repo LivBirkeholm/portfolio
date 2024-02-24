@@ -66,6 +66,12 @@ p {
   .img_knap:hover {
     transform: scale(1.05);
   }
+  .grid_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-top: 30px;
+  }
 }
 @media (max-width: 800px) {
   .grid_1-1 {
@@ -94,6 +100,12 @@ p {
     font-family: "Montserrat", sans-serif;
     color: rgb(65, 63, 63);
     font-size: 12px;
+  }
+  .grid_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 30px;
   }
 }
 .project {
@@ -142,11 +154,4 @@ h3 {
 .image-column img {
   max-width: 100%;
   height: auto;
-}
-
-.grid_4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 40px;
-  padding-top: 30px;
 }
