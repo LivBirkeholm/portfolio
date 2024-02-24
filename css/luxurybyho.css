@@ -23,6 +23,10 @@ p {
 .tilbage a:hover {
   color: black;
 }
+.lbh_link {
+  color: rgb(87, 85, 85);
+  font-family: "Montserrat", sans-serif;
+}
 @media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
@@ -121,14 +125,14 @@ h3 {
   margin: 20px 0;
 }
 .image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin-top: 20px;
 }
 .image-column,
 h3 {
   text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 .image-column h2 {
   font-family: "Montserrat", sans-serif;
@@ -138,12 +142,11 @@ h3 {
 .image-column img {
   max-width: 100%;
   height: auto;
-  border-radius: 15px;
 }
 
 .grid_4 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 40px;
   padding-top: 30px;
 }

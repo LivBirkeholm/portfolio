@@ -29,3 +29,31 @@ function showImage(imageNumber) {
       break;
   }
 }
+
+function showImage(imageNumber) {
+  var beforeImage = document.getElementById("beforeImage");
+
+  // Skift stien til billederne baseret på dit behov
+  switch (imageNumber) {
+    case 1:
+      beforeImage.src = "lbh_img/before1.webp";
+      break;
+    case 2:
+      beforeImage.src = "lbh_img/before2.webp";
+      break;
+    case 3:
+      beforeImage.src = "lbh_img/before3.webp";
+      break;
+    case 4:
+      beforeImage.src = "lbh_img/before4.webp";
+      break;
+    case 5:
+      beforeImage.src = "lbh_img/before5.webp";
+      break;
+    case 6:
+      beforeImage.src = "lbh_img/before6.webp";
+      break;
+    default:
+      break;
+  }
+}
