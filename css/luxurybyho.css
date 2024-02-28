@@ -137,14 +137,14 @@ h3 {
   margin: 20px 0;
 }
 .image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin-top: 20px;
 }
 .image-column,
 h3 {
   text-align: center;
-  margin-right: 20%;
-  margin-left: 20%;
 }
 .image-column h2 {
   font-family: "Montserrat", sans-serif;

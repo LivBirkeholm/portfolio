@@ -36,22 +36,28 @@ function showImage(imageNumber) {
   // Skift stien til billederne baseret på dit behov
   switch (imageNumber) {
     case 1:
-      beforeImage.src = "lbh_img/before1.webp";
+      beforeImage.src = "lbh_img/before1.avif";
+      afterImage.src = "lbh_img/after1.webp";
       break;
     case 2:
-      beforeImage.src = "lbh_img/before2.webp";
+      beforeImage.src = "lbh_img/before2.avif";
+      afterImage.src = "lbh_img/after2.webp";
       break;
     case 3:
-      beforeImage.src = "lbh_img/before3.webp";
+      beforeImage.src = "lbh_img/before3.avif";
+      afterImage.src = "lbh_img/after3.webp";
       break;
     case 4:
-      beforeImage.src = "lbh_img/before4.webp";
+      beforeImage.src = "lbh_img/before4.avif";
+      afterImage.src = "lbh_img/after4.webp";
       break;
     case 5:
-      beforeImage.src = "lbh_img/before5.webp";
+      beforeImage.src = "lbh_img/before5.avif";
+      afterImage.src = "lbh_img/after5.webp";
       break;
     case 6:
-      beforeImage.src = "lbh_img/before6.webp";
+      beforeImage.src = "lbh_img/before6.avif";
+      afterImage.src = "lbh_img/after6.webp";
       break;
     default:
       break;
