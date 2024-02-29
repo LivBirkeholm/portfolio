@@ -1,0 +1,92 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: rgb(65, 63, 63);
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: rgb(65, 63, 63);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(87, 85, 85);
+  line-height: 30px;
+}
+.space {
+  padding-top: 30px;
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 70px;
+    margin-right: 50px;
+  }
+  .grid_2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+    gap: 50px;
+  }
+  .portrait {
+    width: 65%;
+    margin-left: 50px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .education {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 800px) {
+  .aboutme {
+    padding-top: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .titel {
+    padding-top: 100px;
+  }
+  .education {
+    padding-top: 100px;
+  }
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.box1 {
+  background-color: rgb(145, 186, 252);
+  cursor: default;
+}
+.box2 {
+  background-color: rgb(248, 124, 255);
+  cursor: default;
+}
+.box3 {
+  background-color: rgb(133, 225, 136);
+  cursor: default;
+}
+.box4 {
+  background-color: rgb(255, 207, 159);
+  cursor: default;
+}
+.general_skills p {
+  padding-bottom: 20px;
+  margin-right: -10px;
+}
